@@ -28,6 +28,7 @@ btn.addEventListener("click" , async () => {
 
     const city = document.querySelector("#in").value;
     let data = await callapi(city); // API CALL
+    changebackgorund(data);
     console.log(data);
 
     // Location Setting
@@ -72,3 +73,25 @@ btn.addEventListener("click" , async () => {
     let timezone = document.querySelector(".time-zone");
     timezone.innerHTML = `<b>Time Zone${data.location.tz_id}</b>`
 })
+
+
+function changebackgorund(data)
+{
+    let weather = data.current.condition.text.toLowerCase();
+
+if(weather.includes("sun")){
+    document.body.style.background = "linear-gradient(135deg,#f6d365,#fda085)";
+}
+else if(weather.includes("cloud")){
+    document.body.style.background = "linear-gradient(135deg,#bdc3c7,#2c3e50)";
+}
+else if(weather.includes("rain")){
+    document.body.style.background = "linear-gradient(135deg,#4facfe,#00f2fe)";
+}
+else if(weather.includes("mist") || weather.includes("fog")){
+    document.body.style.background = "linear-gradient(135deg,#757f9a,#d7dde8)";
+}
+else{
+    document.body.style.background = "linear-gradient(135deg,#74ebd5,#ACB6E5)";
+}
+}
