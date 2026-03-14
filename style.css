@@ -104,6 +104,9 @@ body{
 
 @media (max-width:600px){
 
+.details{
+    margin-right: 10px;
+}
 
 .symb{
     grid-template-columns: 1fr 1fr;
