@@ -96,9 +96,7 @@ The app is optimized for:
 
 ## 📸 Preview
 
-Add screenshots of your app here.
 
----
 
 ## 👨‍💻 Author
 
