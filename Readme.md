@@ -98,7 +98,7 @@ The app is optimized for:
 
 Add screenshots of your app here.
 
----
+![alt text](image-1.png)
 
 ## 👨‍💻 Author
 
