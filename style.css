@@ -1,0 +1,81 @@
+*{
+    letter-spacing: 2px;
+}
+
+body{
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  border:solid rgb(156, 92, 92);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px;
+  margin-bottom: 50px;
+  width: 400px;
+  margin: 50px auto;
+}
+
+.container{
+  background: white;
+  border-radius: 10px;
+}
+.container input{
+    height: 50px;
+    text-align: center;
+    border: solid blue 2px;
+    border-radius: 5px;
+}
+
+.container button{
+    color: white;
+    background-color: rgb(91, 91, 111);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.details img{
+    height: 100px;
+    width: 100px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(43, 105, 81);
+    border-radius: 5px;
+    width: 800px;
+    margin-left: 20%;
+}
+
+.details{
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+}
+
+
+
+.symb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    padding: 1.5rem;
+    margin: 5px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.cel{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 10px;
+}

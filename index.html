@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+   <div class="container">
+     <input id="in" type="text" placeholder="Enter Your City Name">
+     <button>Get Weather Details</button>
+   </div>
+
+   <div class="details">
+    <h1 class="heading">Weather Details</h1>
+    <img src="./weather.png" alt="cloud-img">
+
+    <h1 class="cel"> 0&#8451; </h1>
+    <h3 class="cloud">Partial Cloud </h3>
+    <p class="loc"><i class="fa fa-map-marker"></i>
+    Locations</p>
+    <p class="time-zone"><b>Time Zone</b></p>
+
+    <div class="symb">
+        <div class="feels-like">
+        <i class="fas fa-temperature-half"></i>
+        <p>Humidity</p>
+        <p class="feel"><b>0&#8451;</b></p>
+        </div>
+
+    <div class="humidity">
+         <span>&#128167; Feels like</span>
+         <p class="hum"><b>0&#8451;</b></p>
+    </div>
+
+    <div class="wind">
+        <i class="fas fa-wind"></i>
+        <p>Wind Speed</p>
+        <p class="wind-speed">0KPH</p>
+    </div>
+
+    <div class="sun">
+       <Span>&#9788;</Span>
+       <p>UV</p>
+       <p class="uv">0.00</p>
+    </div>
+
+    </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
